@@ -599,8 +599,8 @@ function onMenuModeChange() {
                 'outline-primary': layoutConfig.surface
                   ? layoutConfig.surface === surface.name
                   : isDarkTheme
-                  ? surface.name === 'zinc'
-                  : surface.name === 'slate',
+                    ? surface.name === 'zinc'
+                    : surface.name === 'slate',
               },
             ]"
             :style="{ backgroundColor: `${surface.palette['500']}` }"

@@ -1,7 +1,12 @@
 <script setup></script>
 
 <template>
-  <router-view />
+  <TolgeeProvider>
+    <template v-slot:fallback>
+      <div>Loading...</div>
+    </template>
+    <router-view />
+  </TolgeeProvider>
 </template>
 
 <style scoped></style>
