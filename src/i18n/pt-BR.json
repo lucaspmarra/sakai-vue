@@ -1,0 +1,18 @@
+{
+  "address": {
+    "flag": "Bandeira {0}"
+  },
+  "signup": {
+    "signup_message": "Registre-se para começar a usar",
+    "personal_data_step": "Dados pessoais",
+    "complementary_data_step": "Dados complementares",
+    "address_data_step": "Dados de endereço",
+    "signup_button": "Cadastrar",
+    "personal_data": {
+      "first_name": "Nome",
+      "last_name": "Sobrenome",
+      "date_of_birth": "Data de nascimento",
+      "password": "Senha"
+    }
+  }
+}

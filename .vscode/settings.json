@@ -1,0 +1,46 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "i18n-ally.localesPaths": [
+    "src/i18n",
+  ],
+  "i18n-ally.sourceLanguage": "pt-BR",
+  "i18n-ally.displayLanguage": "pt-BR",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.extract.keygenStyle": "snake_case",
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "i18n-ally.preferredDelimiter": "_",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sortCompare": "binary",
+  "i18n-ally.keysInUse": [
+    "view.progress_submenu.translated_keys",
+    "view.progress_submenu.missing_keys",
+    "view.progress_submenu.empty_keys"
+  ],
+  "i18n-ally.enabledFrameworks": [
+    "vscode",
+    "vue",
+    "general"
+  ],
+  "i18n-ally.theme.annotationMissingBorder": "#d37070",
+  "i18n-ally.theme.annotationMissing": "#d37070",
+}
